@@ -6,8 +6,15 @@
 //  Copyright © 2018 Amaya Penunuri, Yael. All rights reserved.
 //
 
+#include "Controller.hpp"
+
 int main()
 {
+    Controller app;
+    app.start();
+    
+    Controller * appPointer = new Controller();
+    appPointer->start();
     
     return 0;
 }
